@@ -18,7 +18,6 @@ class Animal(object):
         self.required_area = area       # required area [m2]
         # required number of staff members per animal; can be fraction, e.g. 0.2 means one zookeeper can take care of 5 animals
         self.required_staff = staff  
-        return
 
     def set_name(self, name):
         ''' Set animal's name. '''
