@@ -93,7 +93,6 @@ class Animal():
 class Zebra(Animal):
     def __init__(self, name):
         ''' Initialize Zebra class. All we need now is the animal nick name. '''
-        # fill in missing code
         # this calls initialization of Animal class and setting the animal to given 'name'
         super().__init__(self, name)
         # in lines below we defined attribute values for lions
@@ -104,8 +103,7 @@ class Zebra(Animal):
 
 class Penguin(Animal):
     def __init__(self, name):
-        ''' Initialize Zebra class. All we need now is the animal nick name. '''
-        # fill in missing code
+        ''' Initialize Penguin class. All we need now is the animal nick name. '''
         # this calls initialization of Animal class and setting the animal to given 'name'
         super().__init__(self, name)
         # in lines below we defined attribute values for lions
@@ -124,8 +122,8 @@ class Lion(Animal):
         super().__init__(self, name)
         # in lines below we defined attribute values for lions
         self.kind = 'lion'              # this class is only for lions, so we can define animal 'kind' as lion
-        # default required area: ENTER VALUE (arbitrary one or one you used in Day 19 in-class assignment)
+        # default required area: ENTER VALUE (arbitrary one or one you used in previous in-class assignment)
         self.required_area = 600
-        # set default number of Zoo keepers for lions: ENTER VALUE (arbitrary one or one you used in Day 19 in-class assignment)
+        # set default number of Zoo keepers for lions: ENTER VALUE (arbitrary one or one you used in previous in-class assignment)
         self.required_staff = 2
         return
