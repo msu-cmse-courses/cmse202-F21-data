@@ -19,7 +19,6 @@ class Animal():
         # required number of staff members per animal; can be fraction, e.g. 0.2 means one
         # zookeeper can take care of 5 animals
         self.required_staff = staff
-        return
 
     def set_name(self, name):
         ''' Set animal's name. '''
@@ -99,7 +98,6 @@ class Zebra(Animal):
         # in lines below we defined attribute values for lions
         self.required_area = 100
         self.required_staff = 1
-        return
 
 class Penguin(Animal):
     def __init__(self, name):
@@ -110,7 +108,6 @@ class Penguin(Animal):
         # in lines below we defined attribute values for lions
         self.required_area = 300
         self.required_staff = 0.5
-        return
 
 class Lion(Animal):
     '''
@@ -127,4 +124,3 @@ class Lion(Animal):
         self.required_area = 600
         # set default number of Zoo keepers for lions: ENTER VALUE (arbitrary one or one you used in previous in-class assignment)
         self.required_staff = 2
-        return

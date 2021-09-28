@@ -10,7 +10,6 @@ class Zoo():
         # we are using dictionaries for animals and personnel
         self.animals = {}
         self.zookeepers = {}
-        return
 
     def add_animal(self, animal):
         ''' Adds an animal to the zoo. '''
