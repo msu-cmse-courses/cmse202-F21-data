@@ -3,7 +3,7 @@ class Budget:
     '''
     This class is designed to create and store budget information.
 
-    This class has the following attributes:
+    This class will (eventually) have the following attributes:
 
         income [type: int or float]
             This is the monthly income for the budget.
