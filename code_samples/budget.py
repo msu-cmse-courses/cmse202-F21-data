@@ -35,8 +35,6 @@ class Budget:
                 Specifies the monthly income
         '''
         self.income = income
-        self.expenses = 0
-        self.categories = {}
 
     def get_income(self):
         '''
